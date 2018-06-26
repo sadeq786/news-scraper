@@ -31,7 +31,7 @@ mongoose.Promise = Promise;
 
 mongoose.connect(
     process.env.MONGODB_URI ||
-    "mongodb://localhost/homework",
+    "mongodb://user:password123!@ds219191.mlab.com:19191/heroku_fxgnbs56",
     {
         useMongoClient: true
     }
